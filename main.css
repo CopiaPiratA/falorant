@@ -1,0 +1,146 @@
+
+@font-face {
+    font-family: 'valorant.ttf';
+    src: url(fonts/valorant.ttf);
+}
+h1  {
+    font-family: 'valorant.ttf';
+}
+h5 {
+    margin: 10px 0 20px 0;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+video {
+    width: 390px;
+}
+.news{
+    margin-right: 20px;
+}
+.date{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.description {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.big-description {
+    margin-top: 60px;
+}
+.big-description-1 {
+    margin-top: 40px;
+    background-color: brown;
+    padding-top: 20px;
+}
+.big-description-2{
+    margin-top:60px;
+    padding-top: 20px;
+    background-image: url(img/bicigato.jpg);
+    height: 600px;
+}
+.subtitle {
+    margin: 40px 0 20px 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+#nav-logo{
+    width: 90px;
+    height: 50px;
+}
+#title-container {
+    width: 320px;
+}
+#title-video {
+    width: 390px;
+    height: 550px;
+    object-fit: cover;
+}
+#title {
+    position: absolute;
+    top: 52%;
+    left: 5%;
+    letter-spacing: 4px;
+    font-size: 50px;
+    color: aliceblue;
+}
+#title-description{
+    position: absolute;
+    top: 63%;
+    left: 18%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+#play-free , #overview , #view , #maps{
+    position: absolute;
+    top: 79%;
+    left: 25%;
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: brown;
+    color: white;
+    border: double 3px white;
+    letter-spacing: 1.5px;
+}
+#play-free :hover {
+    background-color: rgb(16, 13, 13) ;
+}
+
+#latest {
+    position:absolute;
+    font-size: 45px;
+    letter-spacing: 3px;
+    top: 104%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: brown;
+}
+#news-container {
+    margin-top: 140px;
+    margin-bottom: 80px;
+    display: flex;
+    overflow: hidden;
+}
+#cat {
+    width: 390px;
+    height: 650px;
+}
+#revelation {
+    position: absolute;
+    top: 200%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+#overview{
+    top: 215%;
+}
+#learn {
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: brown;
+    color: white;
+    border: double 3px white;
+    letter-spacing: 1.5px;
+    margin: 40px;
+}
+#bicho {
+    width: 350px;
+    height: 400px;
+}
+#view {
+    top: 360%;
+    background-color: white;
+    color: black;
+}
+#maps {
+    top: 460%;
+}
